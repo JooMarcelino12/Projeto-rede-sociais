@@ -8,6 +8,7 @@
 
 html, body{
     width: 100vw;
+    height: 100vw;
 }
 
 body{
@@ -38,6 +39,25 @@ main{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+#logos{
+    text-align: right;
+}
+
+section#logos > a > img{
+    box-sizing: border-box;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+section#logos > a > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform 0.3s, border 1s;
 }
 
 
